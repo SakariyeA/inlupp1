@@ -1,0 +1,6 @@
+CREATE TABLE QueueMessages (
+    Id INT PRIMARY KEY,
+    Timestamp DATETIME,
+    Value FLOAT,
+    Description NVARCHAR(255)
+);
